@@ -1,9 +1,9 @@
 .section-project {
   min-height: 100vh;
-  scroll-snap-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  // scroll-snap-align: start;
 }
 
 @media only screen and (max-width: 768px) {
