@@ -70,6 +70,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 530px) {
+  .about__description {
+    font-size: 1rem;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .about__description {
     font-size: 1.5rem;
