@@ -1,0 +1,52 @@
+.back-to-top {
+  margin-bottom: 2rem;  
+  text-align: center;
+  cursor: pointer;
+
+  &--icon {
+    background: none;
+    border: none;
+    border: solid $color-white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 1.2rem;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);  
+  }
+
+  &--icon-project {
+    background: none;
+    border: none;
+    border: solid $color-black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 1.2rem;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);  
+  }
+
+  &--description {
+    display: block;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 1768px) {
+  #project-to-top {
+    margin-bottom: 6rem;
+  }  
+}
+
+@media only screen and (max-width: 768px) {
+  .back-to-top {
+  
+    &--icon {
+      padding: 1rem;
+    }
+  
+    &--icon-project {
+      padding: 1rem;
+    }
+  }
+}
+

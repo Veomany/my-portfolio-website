@@ -1,0 +1,30 @@
+footer {
+  height: 5vh;
+  margin-top: -5vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer__social-media {
+  margin: 0 2rem;
+  display: flex;
+  background-color: $color-pastel-green;
+}
+
+.social-media--link {
+  display: flex;
+}
+
+.social-media--icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer__description {
+    font-size: 0.8rem;
+    text-align: right;
+    margin-left: 2rem;
+  }
+}

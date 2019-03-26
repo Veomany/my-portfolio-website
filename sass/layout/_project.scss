@@ -1,0 +1,51 @@
+.project {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  &__box {
+    width: min-content;
+  }
+
+  &--image {
+    display: block;
+    height: 400px;
+    width: 500px;
+    margin-bottom: 2rem;
+    object-fit: cover;
+    border: 5px solid $color-pastel-orange;
+  }
+
+  &--description {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1768px) {
+  .project {
+    &--image {
+      height: 350px;
+      width: 450px;
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .project {
+    &--image {
+      height: 200px;
+      width: 300px;
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .project {
+    &--image {
+      height: 100px;
+      width: 300px;
+    }
+  }
+}

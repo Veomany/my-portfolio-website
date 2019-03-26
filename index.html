@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <ul class="header__menu-list">      
+      <li class="header__menu-selection-list">
+        <a class="header__selection-list" href="#about">About Me</a>
+      </li>
+      <li class="header__menu-selection-list">
+        <a class="header__selection-list" href="#myprojects">My Projects</a>
+      </li>         
+    </ul>
+  </header>
+  <main>
+    <section class="section-landing">
+      <h1 class="heading-primary">
+        <span class="heading-primary--name">Veomany Khammarath</span>
+        <span class="heading-primary--title">Web Developer</span>
+      </h1>
+    </section>
+    <!-- <a name="aboutme"></a> -->
+    <section id="about" class="section-about">
+      <h1 class="about__heading">About Me</h1>
+      <div class="about__description">
+        I have recently completed a 6 month intensive coding bootcamp. 
+        Prior to this I studied Accounting and worked as a Client Anaylst 
+        repsonsible for maintaining databases and auditing data quality. 
+        This is where I discovered what coding could do and decided I 
+        wanted to learn how to code. I've always enjoyed design with 
+        visualisation and animation so I chose to study Web Development.
+      </div>
+      <div id="about-to-top" class="back-to-top">
+        <span class="back-to-top--icon"></span>
+        <span class="back-to-top--description">back to top</span>
+      </div>
+    </section>
+    <!-- <a name="myprojects"></a> -->
+    <section id="myprojects" class="section-project">
+      <h1 class="project__heading">Projects</h1>
+      <div class="project">
+        <div class="project__box">
+          <a class="project--link" href="https://caterlog.herokuapp.com/" target="_blank">
+            <img class="project--image" src="../img/caterlog.png" />
+          </a>
+          <div class="project--description">
+            <span class="project-description-color">
+              A Ruby on Rails class group project on a 2 sided marketplace
+              for caterers and people who require caterers for events.
+            </span>
+          </div>       
+        </div>
+        <div class="project__box">
+          <div class="project__image-box">
+            <a class="project--link" href="https://cryptic-springs-49684.herokuapp.com/" target="_blank">
+              <img class="project--image" src="../img/react-project.png" />
+            </a>
+          </div>
+          <div class="project--description">
+            <span class="project-description-color">
+              A full stack MERN class group project communicating with a real chiropractor
+              as a client who required an app to reach out to patients remotely.
+            </span>
+          </div>     
+        </div>
+        <div class="project__box">
+          <a class="project--link" href="https://github.com/carlgrayau/podcastbeta" target="_blank">
+            <img class="project--image" src="../img/podcast.png" />
+          </a>
+          <div class="project--description">
+            <span class="project-description-color">
+              A Vue.js duo team podcast project built throughout the duration of an internship
+              placement.
+            </span>
+          </div>     
+        </div>
+      </div>
+      <div id="project-to-top" class="back-to-top">
+        <span class="back-to-top--icon-project"></span>
+        <span class="back-to-top--description">back to top</span>
+      </div>
+    </section>
+  </main>
+  <footer class="section-footer">
+    <div class="footer__description">
+        If you have questions or want to chat, feel free
+        to contact me on my social pages or email.
+    </div>
+    <div class="footer__social-media">
+      <div class="footer__social-media-box">
+        <a class="social-media--link" href="https://www.linkedin.com/in/veomany-khammarath-b1b60234/" target="_blank">
+          <img class="social-media--icon" src="../img/linkedin.png">
+        </a>
+      </div>
+      <div class="footer__social-media-box">
+        <a class="social-media--link" href="mailto:veomany.khammarath@gmail.com" target="_blank">
+          <img class="social-media--icon" src="../img/gmail.png">
+        </a>
+      </div>
+      <div class="footer__social-media-box">
+        <a class="social-media--link" href="https://github.com/Veomany" target="_blank">
+          <img class="social-media--icon" src="../img/github.png">
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="main.js"></script>
+</body>
+</html>

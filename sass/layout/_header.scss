@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  &__menu-list {
+    list-style: none;
+    display: flex;
+  }
+
+  &__selection-list {
+    margin: 0 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color-black;
+    background-color: $color-pastel-pink;
+    cursor: pointer;
+  }
+}
