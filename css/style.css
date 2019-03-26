@@ -6,8 +6,7 @@
   box-sizing: inherit; }
 
 html, body {
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory; }
+  scroll-behavior: smooth; }
 
 html {
   font-size: 62.5%; }
@@ -59,7 +58,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   .heading-primary--name {
-    font-size: 3rem; }
+    font-size: 2rem; }
   .heading-primary--title {
     font-size: 1.5rem; }
   .about__description {
@@ -97,7 +96,7 @@ body {
 
 @media only screen and (max-width: 1768px) {
   #project-to-top {
-    margin-bottom: 6rem; } }
+    margin: 2rem 0 6rem 0; } }
 
 @media only screen and (max-width: 768px) {
   .back-to-top--icon {
@@ -125,7 +124,8 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap; }
   .project__box {
-    width: min-content; }
+    width: min-content;
+    width: -moz-min-content; }
   .project--image {
     display: block;
     height: 400px;
