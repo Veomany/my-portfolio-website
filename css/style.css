@@ -6,7 +6,8 @@
   box-sizing: inherit; }
 
 html, body {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory; }
 
 html {
   font-size: 62.5%; }
