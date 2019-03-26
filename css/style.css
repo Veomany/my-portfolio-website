@@ -68,6 +68,10 @@ body {
   .about__description {
     font-size: 1.5rem; } }
 
+@media only screen and (max-width: 375px) {
+  .about__description {
+    font-size: 1.2rem; } }
+
 .back-to-top {
   margin-bottom: 2rem;
   text-align: center;
@@ -100,9 +104,9 @@ body {
 
 @media only screen and (max-width: 768px) {
   .back-to-top--icon {
-    padding: 1rem; }
+    padding: 0.8rem; }
   .back-to-top--icon-project {
-    padding: 1rem; } }
+    padding: 0.8rem; } }
 
 .header {
   display: flex;
@@ -184,7 +188,7 @@ body {
   align-items: center; }
 
 .section-project {
-  height: 100vh;
+  min-height: 100vh;
   scroll-snap-align: center;
   display: flex;
   flex-direction: column;
@@ -193,6 +197,10 @@ body {
 @media only screen and (max-width: 768px) {
   .section-project {
     height: 115vh; } }
+
+@media only screen and (max-width: 375px) {
+  .section-project {
+    height: 155vh; } }
 
 footer {
   height: 5vh;

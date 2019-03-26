@@ -1,5 +1,5 @@
 .section-project {
-  height: 100vh;
+  min-height: 100vh;
   scroll-snap-align: center;
   display: flex;
   flex-direction: column;
@@ -9,5 +9,11 @@
 @media only screen and (max-width: 768px) {
   .section-project {
     height: 115vh;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .section-project {
+    height: 155vh;
   }
 }
