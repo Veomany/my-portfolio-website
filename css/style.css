@@ -76,7 +76,8 @@ body {
 .back-to-top {
   margin-bottom: 2rem;
   text-align: center;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
   .back-to-top--icon {
     background: none;
     border: none;
@@ -237,6 +238,4 @@ footer {
 
 @media only screen and (max-width: 425px) {
   .footer__description {
-    font-size: 0.6rem;
-    text-align: right;
-    margin-left: 2rem; } }
+    font-size: 0.6rem; } }
