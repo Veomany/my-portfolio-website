@@ -233,5 +233,10 @@ footer {
   .footer__description {
     font-size: 0.7rem;
     text-align: right;
-    margin-left: 2rem;
-    margin-bottom: 1rem; } }
+    margin-left: 2rem; } }
+
+@media only screen and (max-width: 425px) {
+  .footer__description {
+    font-size: 0.6rem;
+    text-align: right;
+    margin-left: 2rem; } }
